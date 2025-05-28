@@ -1,31 +1,45 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
- struct Node{
 
+
+// 1 D of the linked list
+class Node{
     public:
-    int data;
-    Node* next;
+   int data;
+   Node* next;
 
-    //constructor
-    Node(int data1 , Node * next1){
+   Node(int data1){
+     
+    this->data = data1;
+    this->next = nullptr;
+   }
 
-        data = data1;
-        next = nullptr;
+
+
+};
+
+void transversal(Node* head){
+
+    while(head != nullptr ){
+
+        cout << head->data << " ";
+
+        head = head -> next;
     }
-    Node(int data2){
-        data = data2;
-        next = nullptr; 
-    }
- };
+
+    cout<< endl;
+}
 
  
-
 int main(){
-    vector<int> arr = {2,5,6,7,8,945,};
+   //transversal of linklist 
+   Node* head = new Node(10);
+    head->next = new Node(20);
+    head->next->next = new Node(30);
+    head->next->next->next = new Node(40);
 
-    Node* y = new Node(arr[0]);
-    cout<< y->data;
+    transversal(head);
+
     return 0;
 }

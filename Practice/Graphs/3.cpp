@@ -6,7 +6,8 @@ int main(){
 
     int n, k;
     cin>> n >> k;
-    //graph are restored at here 
+    //graph are restored at here  using matrix
+
     int adj[n + 1][k + 1];
 
     for(int i=0; i = k ; i++){
@@ -19,5 +20,6 @@ int main(){
 
     }
 
+    // the complexity are the o(n)
     return 0;
 }

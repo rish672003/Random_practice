@@ -25,3 +25,7 @@ int main() {
     
     return 0;
 }
+
+
+//Time Complexity: O(n^2) in the worst case, where n is the number of elements in the array.
+//Space Complexity: O(1) since the sorting is done in place.

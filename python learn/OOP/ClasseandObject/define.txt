@@ -1,0 +1,18 @@
+a class is the template for creating objects
+
+
+map - class
+house - objects
+
+object are the actual instane of the class
+
+
+class = car blueprint
+object = actual car
+
+
+--------------------------------------------------------------------------------------
+
+self ->  a variable that is refer to a current object
+
+

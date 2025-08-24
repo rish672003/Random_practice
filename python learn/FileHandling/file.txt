@@ -1,0 +1,14 @@
+2 primary files types
+1- text file 
+2- binary file(non text data , .png, .jpg, .pdf, .mp3)
+-----------------------------------------------------------------------
+
+How we open a file in python 
+ 
+
+file = open("file name" , "mode" )
+content = file.read()
+print(content)
+
+
+file.close() 

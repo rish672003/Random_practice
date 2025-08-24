@@ -1,0 +1,11 @@
+ No duplication of the code 
+
+ parent class 
+ p1 p2 
+
+
+ child class
+ p3 p4 p2 
+
+ In this the given the property of tje p2 class is inherite in the 
+ 

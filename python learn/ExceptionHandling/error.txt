@@ -1,0 +1,42 @@
+What are the errors?
+
+
+1-> compli - time errors
+
+during the running of the program
+
+2-> runtime errors
+during executation error is  error
+
+3-> Logical error
+
+output does not error that is knowns as Logical error
+
+
+removing the error is known as debugging
+
+
+
+--------------------------------------------------------------------------
+Exception Handling
+
+Exception-> during the exexution this is error , they provide the details about the error 
+
+Handling-> 
+----------------------------------------------------------------
+tri and exceptblock 
+
+try (main code where error are going on )
+
+exceptblock (put the code and find out what errors are going on )
+
+--------------------------------------------------------------------
+
+Finally Block 
+
+
+-------------------------------------------------------------------
+nested try exceptblock
+
+
+

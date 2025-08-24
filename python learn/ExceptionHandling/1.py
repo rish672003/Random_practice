@@ -4,4 +4,4 @@ try:
     print(f"Result is {result}")
 
 except ValueError:
-    prinft("Invalid input! Please enter a valid number.")
+    print("Invalid input! Please enter a valid number.")
